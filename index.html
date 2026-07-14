@@ -1,102 +1,1543 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Khushi Agarwal | DevOps Portfolio</title>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Khushi Agarwal | Full Stack Developer</title>
+
+    <meta name="description" content="Khushi Agarwal - Developer Portfolio showcasing AI, Cloud, DevOps and Full Stack projects.">
+    <meta name="keywords" content="Khushi Agarwal, Developer, AWS, Docker, Kubernetes, Python, AI, DevOps">
+    <meta name="author" content="Khushi Agarwal">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
 
-<div class="background">
-  <div class="gradient gradient-1"></div>
-  <div class="gradient gradient-2"></div>
-  <div class="gradient gradient-3"></div>
+<!-- =========================
+     Aurora Background
+========================= -->
+
+<div class="aurora">
+    <span></span>
+    <span></span>
+    <span></span>
 </div>
+
+
+<!-- Mouse Glow -->
+
+<div class="cursor-glow"></div>
+
+
+
+<!-- =========================
+     Navigation
+========================= -->
 
 <header>
+
 <nav class="navbar">
-<h2 class="logo">KA.</h2>
-<ul class="nav-links">
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
+
+    <div class="logo">
+        Khushi<span>.</span>
+    </div>
+
+
+    <ul class="nav-links">
+
+        <li>
+            <a href="#home">Home</a>
+        </li>
+
+        <li>
+            <a href="#about">About</a>
+        </li>
+
+        <li>
+            <a href="#skills">Skills</a>
+        </li>
+
+        <li>
+            <a href="#experience">Experience</a>
+        </li>
+
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+
+    </ul>
+
+
+    <button class="menu-btn">
+        ☰
+    </button>
+
+
 </nav>
+
 </header>
 
+
+
+
+<!-- =========================
+        HERO SECTION
+========================= -->
+
+
 <section id="home" class="hero">
-<div class="hero-left">
-<span class="badge">🚀 Available for Internships</span>
-<h1>Hi, I'm <span>Khushi Agarwal</span></h1>
-<h3>DevOps • Cloud • AI/ML • Python</h3>
-<p>I build cloud-native applications, automate deployments, and create scalable solutions using AWS, Docker, Kubernetes and GitHub Actions.</p>
+
+
+<div class="hero-content">
+
+
+<p class="intro">
+    Hello, I'm
+</p>
+
+
+<h1>
+    Khushi Agarwal
+</h1>
+
+
+<h2>
+    I'm a
+    <span id="typing"></span>
+</h2>
+
+
+
+<p class="hero-description">
+
+Building scalable applications, AI-powered solutions,
+and cloud-native systems with modern technologies.
+
+</p>
+
+
 
 <div class="hero-buttons">
-<a href="#projects" class="btn primary">View Projects</a>
-<a href="#" class="btn secondary">Download Resume</a>
-</div>
+
+<a href="#projects" class="btn primary">
+View Projects
+</a>
+
+
+<a href="#contact" class="btn secondary">
+Contact Me
+</a>
+
 </div>
 
-<div class="hero-right">
-<div class="glass-card profile-card">
-<h2>Khushi Agarwal</h2>
-<p>DevOps Engineer</p>
+
+
+<div class="stats">
+
+
+<div class="stat-card glass">
+
+<h3 data-count="15">
+0+
+</h3>
+
+<p>
+Projects
+</p>
+
 </div>
+
+
+
+<div class="stat-card glass">
+
+<h3 data-count="5">
+0+
+</h3>
+
+<p>
+Certifications
+</p>
+
 </div>
+
+
+
+<div class="stat-card glass">
+
+<h3 data-count="3">
+0+
+</h3>
+
+<p>
+Years Learning
+</p>
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+<div class="hero-card glass">
+
+
+<div class="profile-ring">
+
+<img src="assets/images/profile.jpg"
+alt="Khushi Agarwal">
+
+</div>
+
+
+
+<div class="floating-card card-one">
+
+AWS Cloud
+
+</div>
+
+
+
+<div class="floating-card card-two">
+
+AI / ML
+
+</div>
+
+
+
+<div class="floating-card card-three">
+
+DevOps
+
+</div>
+
+
+
+</div>
+
+
+
 </section>
+
+
+
+
+
+<!-- =========================
+        ABOUT SECTION
+========================= -->
+
 
 <section id="about" class="section">
-<h2 class="section-title">About Me</h2>
-<div class="glass-card">
-<p>B.Tech Computer Science student passionate about DevOps, Cloud Computing, AWS, Kubernetes, Docker, CI/CD and AI. I enjoy building production-ready applications and automating deployments.</p>
+
+
+<div class="section-title">
+
+<p>
+About Me
+</p>
+
+<h2>
+Who I am
+</h2>
+
 </div>
+
+
+
+<div class="about-container">
+
+
+
+<div class="about-text glass">
+
+
+<h3>
+Developer passionate about technology
+</h3>
+
+
+
+<p>
+
+I am Khushi Agarwal, a developer passionate about
+Artificial Intelligence, Cloud Computing, DevOps,
+and building impactful software solutions.
+
+</p>
+
+
+<p>
+
+My focus is creating scalable applications,
+automation pipelines, and intelligent systems
+that solve real-world problems.
+
+</p>
+
+
+
+<div class="about-tags">
+
+
+<span>
+AWS
+</span>
+
+<span>
+Python
+</span>
+
+<span>
+Docker
+</span>
+
+<span>
+Kubernetes
+</span>
+
+<span>
+AI/ML
+</span>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+<div class="about-card glass">
+
+
+<div class="info-box">
+
+<h4>
+Location
+</h4>
+
+<p>
+India
+</p>
+
+</div>
+
+
+
+<div class="info-box">
+
+<h4>
+Role
+</h4>
+
+<p>
+Software Developer
+</p>
+
+</div>
+
+
+
+<div class="info-box">
+
+<h4>
+Focus
+</h4>
+
+<p>
+AI + Cloud + DevOps
+</p>
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
 </section>
+<!-- =========================
+        SKILLS SECTION
+========================= -->
 
 <section id="skills" class="section">
-<h2 class="section-title">Skills</h2>
-<div class="skills-grid">
-<div class="glass-card">AWS</div>
-<div class="glass-card">Docker</div>
-<div class="glass-card">Kubernetes</div>
-<div class="glass-card">GitHub Actions</div>
-<div class="glass-card">Linux</div>
-<div class="glass-card">Python</div>
-<div class="glass-card">Git</div>
-<div class="glass-card">Terraform (Learning)</div>
+
+
+<div class="section-title">
+
+<p>
+My Skills
+</p>
+
+<h2>
+Technologies I Work With
+</h2>
+
 </div>
+
+
+
+<div class="skills-grid">
+
+
+
+<div class="skill-card glass">
+
+<div class="skill-icon">
+☁️
+</div>
+
+<h3>
+Cloud & DevOps
+</h3>
+
+<p>
+AWS, Docker, Kubernetes, Terraform, Jenkins, GitHub Actions, Linux
+</p>
+
+
+<div class="skill-bar">
+
+<span style="width:90%"></span>
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="skill-card glass">
+
+
+<div class="skill-icon">
+🐍
+</div>
+
+
+<h3>
+Programming
+</h3>
+
+
+<p>
+Python, JavaScript, HTML, CSS, SQL, Data Structures
+</p>
+
+
+<div class="skill-bar">
+
+<span style="width:85%"></span>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<div class="skill-card glass">
+
+
+<div class="skill-icon">
+🤖
+</div>
+
+
+<h3>
+AI & Machine Learning
+</h3>
+
+
+<p>
+Machine Learning, RAG, NLP, Recommendation Systems
+</p>
+
+
+<div class="skill-bar">
+
+<span style="width:88%"></span>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<div class="skill-card glass">
+
+
+<div class="skill-icon">
+🔥
+</div>
+
+
+<h3>
+Backend & Database
+</h3>
+
+
+<p>
+MongoDB, Firebase, REST APIs, Authentication Systems
+</p>
+
+
+<div class="skill-bar">
+
+<span style="width:82%"></span>
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
 </section>
+
+
+
+
+
+
+<!-- =========================
+        EXPERIENCE SECTION
+========================= -->
+
+
+<section id="experience" class="section">
+
+
+<div class="section-title">
+
+<p>
+Experience
+</p>
+
+
+<h2>
+Professional Journey
+</h2>
+
+</div>
+
+
+
+
+<div class="timeline">
+
+
+
+<div class="timeline-item glass">
+
+
+<div class="timeline-dot"></div>
+
+
+<h3>
+DevOps Intern
+</h3>
+
+
+<h4>
+Paysecure Technology Limited
+</h4>
+
+
+<span>
+2026
+</span>
+
+
+<p>
+
+Worked on cloud infrastructure,
+automation workflows, CI/CD pipelines,
+Docker deployments, and DevOps practices.
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="timeline-item glass">
+
+
+<div class="timeline-dot"></div>
+
+
+<h3>
+AI & Full Stack Developer
+</h3>
+
+
+<h4>
+Independent Projects
+</h4>
+
+
+<span>
+2024 - Present
+</span>
+
+
+<p>
+
+Developed AI-powered applications,
+ML systems, recommendation engines,
+and cloud deployed platforms.
+
+</p>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+<!-- =========================
+        PROJECTS SECTION
+========================= -->
+
 
 <section id="projects" class="section">
-<h2 class="section-title">Projects</h2>
+
+
+<div class="section-title">
+
+<p>
+Featured Work
+</p>
+
+
+<h2>
+Projects
+</h2>
+
+
+</div>
+
+
+
+
 <div class="projects-grid">
-<div class="glass-card">
-<h3>CampusVibe</h3>
-<p>AI powered RAG knowledge platform.</p>
+
+
+
+
+
+
+<!-- Project 1 -->
+
+<div class="project-card glass">
+
+
+<div class="project-image">
+
+<img src="assets/images/campusvibe.png"
+alt="CampusVibe Project">
+
 </div>
-<div class="glass-card">
-<h3>Mental Health Predictor</h3>
-<p>Machine Learning Streamlit application.</p>
+
+
+
+<div class="project-content">
+
+
+<h3>
+CampusVibe (RAG)
+</h3>
+
+
+
+<p>
+
+AI-powered campus assistant using
+Retrieval Augmented Generation,
+Firebase authentication,
+and intelligent knowledge retrieval.
+
+</p>
+
+
+
+<div class="tech-stack">
+
+<span>
+Python
+</span>
+
+<span>
+RAG
+</span>
+
+<span>
+Firebase
+</span>
+
+<span>
+AI
+</span>
+
+
 </div>
-<div class="glass-card">
-<h3>AWS Portfolio CI/CD</h3>
-<p>GitHub Actions deployment to Amazon S3.</p>
+
+
+
+<div class="project-links">
+
+<a href="#">
+Live Demo
+</a>
+
+<a href="#">
+Github
+</a>
+
+
 </div>
+
+
 </div>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- Project 2 -->
+
+
+<div class="project-card glass">
+
+
+<div class="project-image">
+
+<img src="assets/images/mental-health.png"
+alt="Mental Health Predictor">
+
+</div>
+
+
+
+<div class="project-content">
+
+
+<h3>
+Mental Health Predictor
+</h3>
+
+
+
+<p>
+
+Machine learning application that analyzes
+questionnaire data and predicts mental
+wellness indicators.
+
+</p>
+
+
+
+<div class="tech-stack">
+
+
+<span>
+Python
+</span>
+
+
+<span>
+ML
+</span>
+
+
+<span>
+Streamlit
+</span>
+
+
+<span>
+Firebase
+</span>
+
+
+
+</div>
+
+
+
+<div class="project-links">
+
+
+<a href="#">
+Live Demo
+</a>
+
+
+<a href="#">
+Github
+</a>
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- Project 3 -->
+
+
+<div class="project-card glass">
+
+
+<div class="project-image">
+
+
+<img src="assets/images/event-management.png"
+alt="Event Management System">
+
+
+</div>
+
+
+
+<div class="project-content">
+
+
+<h3>
+Event Management System
+</h3>
+
+
+<p>
+
+Full-stack event platform with
+registration management,
+authentication,
+and admin dashboard.
+
+</p>
+
+
+
+<div class="tech-stack">
+
+<span>
+MongoDB
+</span>
+
+
+<span>
+JavaScript
+</span>
+
+
+<span>
+Node.js
+</span>
+
+
+<span>
+Firebase
+</span>
+
+
+</div>
+
+
+
+<div class="project-links">
+
+
+<a href="#">
+Live Demo
+</a>
+
+
+<a href="#">
+Github
+</a>
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<!-- Project 4 -->
+
+
+<div class="project-card glass">
+
+
+<div class="project-image">
+
+
+<img src="assets/images/aws-cicd.png"
+alt="AWS CI CD Portfolio">
+
+
+</div>
+
+
+
+<div class="project-content">
+
+
+<h3>
+AWS S3 + GitHub Actions CI/CD Portfolio
+</h3>
+
+
+
+<p>
+
+Automated deployment pipeline using
+GitHub Actions and AWS S3 hosting
+for continuous delivery.
+
+</p>
+
+
+
+<div class="tech-stack">
+
+
+<span>
+AWS S3
+</span>
+
+
+<span>
+GitHub Actions
+</span>
+
+
+<span>
+Terraform
+</span>
+
+
+<span>
+Cloud
+</span>
+
+
+
+</div>
+
+
+
+<div class="project-links">
+
+
+<a href="#">
+Live Demo
+</a>
+
+
+<a href="#">
+Github
+</a>
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
 </section>
 
-<section id="contact" class="section">
-<h2 class="section-title">Contact</h2>
-<div class="glass-card">
-<p>Email: your-email@example.com</p>
-<p>LinkedIn | GitHub</p>
+  <!-- =========================
+     CERTIFICATIONS SECTION
+========================= -->
+
+
+<section id="certifications" class="section">
+
+
+<div class="section-title">
+
+<p>
+Certifications
+</p>
+
+
+<h2>
+Learning & Credentials
+</h2>
+
+
 </div>
+
+
+
+
+<div class="cards-grid">
+
+
+
+<div class="info-card glass">
+
+
+<div class="card-icon">
+☁️
+</div>
+
+
+<h3>
+AWS Cloud
+</h3>
+
+
+<p>
+
+Cloud fundamentals, AWS services,
+deployment, networking and infrastructure.
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="info-card glass">
+
+
+<div class="card-icon">
+🐳
+</div>
+
+
+<h3>
+Docker & Kubernetes
+</h3>
+
+
+<p>
+
+Containerization, orchestration,
+and cloud-native application deployment.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+<div class="info-card glass">
+
+
+<div class="card-icon">
+⚙️
+</div>
+
+
+<h3>
+DevOps Engineering
+</h3>
+
+
+<p>
+
+CI/CD pipelines, automation,
+Linux administration and deployment workflows.
+
+</p>
+
+
+</div>
+
+
+
+
+<div class="info-card glass">
+
+
+<div class="card-icon">
+🤖
+</div>
+
+
+<h3>
+AI & Machine Learning
+</h3>
+
+
+<p>
+
+Machine learning algorithms,
+NLP and intelligent application development.
+
+</p>
+
+
+</div>
+
+
+
+
+</div>
+
+
 </section>
+
+
+
+
+
+
+
+<!-- =========================
+     ACHIEVEMENTS SECTION
+========================= -->
+
+
+<section id="achievements" class="section">
+
+
+<div class="section-title">
+
+
+<p>
+Achievements
+</p>
+
+
+<h2>
+Milestones
+</h2>
+
+
+</div>
+
+
+
+
+<div class="achievement-grid">
+
+
+
+<div class="achievement-card glass">
+
+
+<h3>
+SIH 2024
+</h3>
+
+
+<p>
+
+Smart Passive CAPTCHA solution
+selected among top teams.
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="achievement-card glass">
+
+
+<h3>
+SIH 2025
+</h3>
+
+
+<p>
+
+Smart Dewatering System for Mines
+selected among top innovative solutions.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+<div class="achievement-card glass">
+
+
+<h3>
+Ideathon Finalist
+</h3>
+
+
+<p>
+
+Recognized for developing
+technology-driven solutions.
+
+</p>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- =========================
+     CONTACT SECTION
+========================= -->
+
+
+<section id="contact" class="section contact">
+
+
+
+<div class="section-title">
+
+
+<p>
+Contact
+</p>
+
+
+<h2>
+Let's Build Something Together
+</h2>
+
+
+</div>
+
+
+
+
+
+<div class="contact-container">
+
+
+
+
+
+<div class="contact-info glass">
+
+
+<h3>
+Get In Touch
+</h3>
+
+
+
+<p>
+
+Interested in collaboration,
+internships, or building innovative
+technology solutions?
+
+</p>
+
+
+
+
+<div class="contact-item">
+
+<span>
+📧
+</span>
+
+<p>
+khushiagarwal@example.com
+</p>
+
+</div>
+
+
+
+
+
+<div class="contact-item">
+
+<span>
+💼
+</span>
+
+<p>
+LinkedIn
+</p>
+
+</div>
+
+
+
+
+
+
+<div class="contact-item">
+
+<span>
+💻
+</span>
+
+<p>
+GitHub
+</p>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+<form class="contact-form glass">
+
+
+<input 
+type="text"
+placeholder="Your Name"
+required
+>
+
+
+
+<input
+type="email"
+placeholder="Your Email"
+required
+>
+
+
+
+<textarea
+rows="6"
+placeholder="Your Message"
+required>
+</textarea>
+
+
+
+<button class="btn primary"
+type="submit">
+
+Send Message
+
+</button>
+
+
+
+</form>
+
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- =========================
+        FOOTER
+========================= -->
+
+
+<footer>
+
+
+<div class="footer-content">
+
+
+<h3>
+Khushi Agarwal
+</h3>
+
+
+<p>
+
+Building AI-powered,
+cloud-native and scalable digital experiences.
+
+</p>
+
+
+
+<div class="social-links">
+
+
+<a href="#">
+GitHub
+</a>
+
+
+<a href="#">
+LinkedIn
+</a>
+
+
+<a href="#">
+Twitter
+</a>
+
+
+</div>
+
+
+
+<p class="copyright">
+
+© 2026 Khushi Agarwal.
+All rights reserved.
+
+</p>
+
+
+
+</div>
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+<!-- =========================
+        SCRIPTS
+========================= -->
+
 
 <script src="script.js"></script>
+
+
 </body>
+
 </html>
